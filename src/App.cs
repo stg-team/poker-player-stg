@@ -35,6 +35,8 @@ namespace Nancy.Simple
 
 		static void Main (string[] args)
 		{
+
+            var gameState = Utils.ConvertToGameState();
 			Host = new NancyHost (CurrentAddress);
 			Host.Start ();
 			Console.WriteLine ("Nancy is started and listening on {0}...", CurrentAddress);

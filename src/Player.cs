@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json.Linq;
 
 namespace Nancy.Simple
 {
-    public class Player
+    public class Player : JObject
     {
         public string name { get; set; }
         public int stack { get; set; }
@@ -17,7 +18,7 @@ namespace Nancy.Simple
 
     }
 
-    public class Card
+    public class Card : JObject
     {
         public Rank rank;
         public Suit suit;

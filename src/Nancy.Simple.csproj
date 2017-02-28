@@ -70,6 +70,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game.cs" />
+    <Compile Include="GameStep.cs" />
     <Compile Include="GameState.cs" />
     <Compile Include="MainModule.cs" />
     <Compile Include="App.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="status.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="Tournament.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">

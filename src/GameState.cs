@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json.Linq;
 
 namespace Nancy.Simple
 {
-    public class GameState
+    public class GameState : JObject
     {
         public Player[] players { get; set; }
         public string tournament_id { get; set; }

@@ -8,5 +8,6 @@ namespace Nancy.Simple
     public enum Status
     {
         done,
+        active
     }
 }

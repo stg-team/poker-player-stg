@@ -8,6 +8,6 @@ namespace Nancy.Simple
 {
     public class Game : JObject
     {
-        public GameStep[] steps { get; set;}
+        public JObject[] steps { get; set;}
     }
 }

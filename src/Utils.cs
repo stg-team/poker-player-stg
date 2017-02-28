@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json.Linq;
 
 namespace Nancy.Simple
 {
@@ -19,7 +20,7 @@ namespace Nancy.Simple
                 Game game = new Game();
                 try
                 {
-                    game.steps = JsonConvert.DeserializeObject<GameStep[]>(str);
+                    game.steps = JsonConvert.DeserializeObject<JObject[]>(str);
                 }
                 catch (Exception ex)
                 {

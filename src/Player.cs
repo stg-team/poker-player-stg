@@ -26,7 +26,7 @@ namespace Nancy.Simple
 
     public enum Rank
     {
-        cA = 1,
+
         c2 = 2,
         c3 = 3,
         c4 = 4,
@@ -38,7 +38,8 @@ namespace Nancy.Simple
         c10 = 10,
         cJ = 11,
         cQ = 12,
-        cK = 13
+        cK = 13,
+        cA = 14,
     }
 
     public enum Suit

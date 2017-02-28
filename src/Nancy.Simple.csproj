@@ -77,6 +77,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PokerPlayer.cs" />
+    <Compile Include="PokerRegeln.cs" />
     <Compile Include="status.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="Tournament.cs" />
@@ -88,7 +89,6 @@
     </None>
     <None Include="Items.json" />
     <None Include="packages.config" />
-    <None Include="Playerstatus.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ok">
